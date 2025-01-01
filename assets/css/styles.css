@@ -37,7 +37,7 @@ nav ul li a {
 /* Hero sekcia */
 #hero {
     position: relative;
-    height: 33vh; /* Nastavte výšku na 1/3 obrazovky */
+    height: 15vh; /* Nastavte výšku na 1/3 obrazovky */
     overflow: hidden;
     text-align: center;
     color: white;
