@@ -29,14 +29,21 @@ nav ul li a {
 
 /* Hero sekcia */
 #hero {
-    height: 70vh;
-    background: url('assets/images/hero.jpg') no-repeat center center/cover;
+    height: 100vh; /* Nastavenie hero sekcie na výšku celej obrazovky */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white;
+    background: url('assets/images/hero.jpg') no-repeat center center;
+    background-size: cover; /* Uistite sa, že obrázok sa prispôsobí celej ploche */
 }
+
+#hero img {
+    display: none; /* Ak používate background v #hero, odstráňte samotný img tag */
+}
+
+
+
 
 #hero .hero-content {
     background-color: rgba(0, 0, 0, 0.5);
